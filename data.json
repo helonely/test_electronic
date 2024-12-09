@@ -1,0 +1,681 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-12-09T19:36:35.516Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "idravil@mail.ru",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-12-09T19:37:16.188Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Iphone",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-12-09T19:38:08.074Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "idravil@mail.ru",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-12-09T19:39:16.124Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Supplier object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-12-09T19:42:39.991Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "test@test.ru",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-12-09T19:43:10.590Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Чай",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-12-09T19:43:59.082Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Supplier object (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-12-09T19:46:33.202Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Ребята",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-12-09T19:50:08.772Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "ip_cats@mail.ru",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-12-09T19:50:12.615Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Supplier object (3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add Пользователь",
+      "content_type": 6,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change Пользователь",
+      "content_type": 6,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete Пользователь",
+      "content_type": 6,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view Пользователь",
+      "content_type": 6,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Контакт",
+      "content_type": 7,
+      "codename": "add_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Контакт",
+      "content_type": 7,
+      "codename": "change_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Контакт",
+      "content_type": 7,
+      "codename": "delete_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Контакт",
+      "content_type": 7,
+      "codename": "view_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Продукт",
+      "content_type": 8,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Продукт",
+      "content_type": 8,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Продукт",
+      "content_type": 8,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Продукт",
+      "content_type": 8,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add supplier",
+      "content_type": 9,
+      "codename": "add_supplier"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change supplier",
+      "content_type": 9,
+      "codename": "change_supplier"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete supplier",
+      "content_type": 9,
+      "codename": "delete_supplier"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view supplier",
+      "content_type": 9,
+      "codename": "view_supplier"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "Ребята",
+      "permissions": [
+        21
+      ]
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "suppliers",
+      "model": "contact"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "suppliers",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "suppliers",
+      "model": "supplier"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "kfzhks275txhkrahc1bhxucupnub6mqu",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pCBMrRx6d4zkBkGpGogKe3KeHdt0oVu_3vvv1SgbS1h62kJs6izMur0uzHFR6o7kDvVW9Ox1XWZWe-KPmjX1ybpeTncv4NCvXzrCG6AKJjYmhG8WCFGsZCddTwZEMzZR6E0jIyQk0NkmrJFw4P31qn3B-_GOA8:1tKjGi:q1kgrUMFYqVjov2I4NSxByWLuzHeDhTXlOha-3aZTag",
+      "expire_date": "2024-12-23T19:18:08.158Z"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$W3jBrcMiVVGqvtR3Pc61mJ$081T+/nG34rOc1mi9zURnBnrMJntaKA7cA1WP6R4a3E=",
+      "last_login": "2024-12-09T19:18:08.156Z",
+      "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-12-09T19:14:57.986Z",
+      "email": "admin@test.com",
+      "city": null,
+      "phone": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "12345678",
+      "last_login": "2024-12-09T19:35:43Z",
+      "is_superuser": false,
+      "first_name": "Равиль",
+      "last_name": "И",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-12-09T19:35:23Z",
+      "email": "idravil@mail.ru",
+      "city": "Москва",
+      "phone": "89999999999",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "suppliers.contact",
+    "pk": 1,
+    "fields": {
+      "email": "idravil@mail.ru",
+      "country": "Россия",
+      "city": "г Уфа",
+      "street": "ул. Ленина",
+      "house_number": 7
+    }
+  },
+  {
+    "model": "suppliers.contact",
+    "pk": 2,
+    "fields": {
+      "email": "test@test.ru",
+      "country": "Казахстан",
+      "city": "Астана",
+      "street": "Кудыкина",
+      "house_number": 1
+    }
+  },
+  {
+    "model": "suppliers.contact",
+    "pk": 3,
+    "fields": {
+      "email": "ip_cats@mail.ru",
+      "country": "Russia",
+      "city": "Самара",
+      "street": "проспект октября",
+      "house_number": 1
+    }
+  },
+  {
+    "model": "suppliers.product",
+    "pk": 1,
+    "fields": {
+      "name": "Iphone",
+      "model": "15 Pro Max",
+      "release_date": "2024-10-10"
+    }
+  },
+  {
+    "model": "suppliers.product",
+    "pk": 2,
+    "fields": {
+      "name": "Чай",
+      "model": "Черный",
+      "release_date": "2024-12-10"
+    }
+  },
+  {
+    "model": "suppliers.supplier",
+    "pk": 1,
+    "fields": {
+      "name": "Рога и Копыта",
+      "supplier_type": "З",
+      "contact": 1,
+      "provider": null,
+      "debt_to_supplier": 10002.0,
+      "creation_time": "2024-12-09T19:38:16Z",
+      "product": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "suppliers.supplier",
+    "pk": 2,
+    "fields": {
+      "name": "Кот",
+      "supplier_type": "РС",
+      "contact": 2,
+      "provider": 1,
+      "debt_to_supplier": 1223.0,
+      "creation_time": "2024-12-09T19:43:19Z",
+      "product": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "suppliers.supplier",
+    "pk": 3,
+    "fields": {
+      "name": "ип котяры",
+      "supplier_type": "ИП",
+      "contact": 3,
+      "provider": 2,
+      "debt_to_supplier": 0.0,
+      "creation_time": "2024-12-09T19:47:52Z",
+      "product": [
+        1,
+        2
+      ]
+    }
+  }
+]
